@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		288EF52A26A6D71B0045B9DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 288EF52926A6D71B0045B9DF /* main.cpp */; };
+		288EF53226A71E050045B9DF /* LogFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 288EF53126A71E050045B9DF /* LogFactorial.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		288EF52626A6D71B0045B9DF /* MOCM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MOCM; sourceTree = BUILT_PRODUCTS_DIR; };
 		288EF52926A6D71B0045B9DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		288EF53126A71E050045B9DF /* LogFactorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogFactorial.cpp; sourceTree = "<group>"; };
+		288EF53426A722AB0045B9DF /* LogFactorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogFactorial.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				288EF52926A6D71B0045B9DF /* main.cpp */,
+				288EF53426A722AB0045B9DF /* LogFactorial.h */,
+				288EF53126A71E050045B9DF /* LogFactorial.cpp */,
 			);
 			path = MOCM;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288EF53226A71E050045B9DF /* LogFactorial.cpp in Sources */,
 				288EF52A26A6D71B0045B9DF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
